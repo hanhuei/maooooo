@@ -1,0 +1,97 @@
+.rule {
+  padding: 50px;
+}
+
+.box {
+  margin-bottom: 50px;
+}
+
+.box .title {
+  font-size: 32px;
+  color: #FDA2A2;
+  font-weight: 500;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.box .group {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 50px;
+  box-shadow: 0px 4px 10px 0px rgba(74, 56, 58, 0.05);
+  color: #4A383A;
+}
+
+.box .group li {
+  padding-left: 40px;
+  line-height: 50px;
+  margin-bottom: 30px;
+  position: relative;
+  font-size: 28px;
+}
+
+.box .group li a {
+  color: #FDA2A2;
+  text-decoration: underline;
+}
+
+.box .group li:last-child {
+  margin-bottom: 0;
+}
+
+.box .group.dot li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #7EAFF8;
+}
+
+.box .group.check li, .box .group.number li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 60px;
+}
+
+.box .group.check li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: url('../../../assets/images/rule/check.png') no-repeat;
+  background-size: 100%;
+}
+
+.box .group.number img {
+  width: 36px;
+  height: 36px;
+  margin-right: 30px;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+}
+
+.box .group.number li {
+  padding-left: 0;
+}
+
+.box .group.number li::before {
+  content: '';
+  position: absolute;
+  left: 18px;
+  top: 20px;
+  width: 2px;
+  height: 60px;
+  z-index: 1;
+  background-image: repeating-linear-gradient(0deg, #D6ECF9, #D6ECF9 6px, #fff 0, #fff 10px);
+}
+
+.box .group.number li:last-child::before {
+  display: none;
+}

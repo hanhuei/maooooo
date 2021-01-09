@@ -6,17 +6,25 @@
     "build": "vite build"
   },
   "dependencies": {
-    "stylelint": "^13.8.0",
-    "vue": "^3.0.4"
+    "axios": "^0.21.1",
+    "normalize.css": "^8.0.1",
+    "vue": "^3.0.4",
+    "vue-router": "4.0.2",
+    "vuex": "4.0.0-rc.2"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.4",
     "@vue/eslint-config-prettier": "^6.0.0",
+    "autoprefixer": "^9.2.1",
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.4.1",
+    "postcss-import": "^12.0.1",
+    "postcss-px-to-viewport": "^1.1.1",
     "prettier": "^2.2.1",
+    "sass": "^1.32.2",
+    "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
